@@ -15,8 +15,8 @@ int main() {
 
     c1.drive(50);
 
-    cout << "The emission for c1 is: " << c1.get_emission() << endl;
-    cout << "The emission for c2 is: " << c2.get_emission() << endl;
+    cout << "The emission for c1 is: " << c1.get_emissions() << endl;
+    cout << "The emission for c2 is: " << c2.get_emissions() << endl;
 
     return 0;
 }
