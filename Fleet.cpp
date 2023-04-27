@@ -2,12 +2,25 @@
 #include <math.h>
 #include "Fleet.h"
 #include "Car.h"
+#include "Tesla.h"
+#include "Ford.h"
 
 using namespace std;
 
-Fleet() {
+Fleet::Fleet() {
     Fleet* fleetOfCars[5];
     
+    for (int i = 0; i < 0; i++) {
+        fleetOfCars[i] = nullptr;
+    }
+
+    Car* c1 = new Tesla('S', 10000);
+    fleetOfCars[0] = c1;
+    Car* c2 = new Ford(1, 20000);
+    Car* c3 = new Car(30000);;
+    Car* c4 = new Ford(2, 40000);
+    Car* c5 = new Tesla('T', 50000);
+
 };
 
 Car **get_fleet();
