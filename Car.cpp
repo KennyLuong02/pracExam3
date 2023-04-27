@@ -23,7 +23,7 @@ int Car::get_price() {
 
 // void set_emission(int prc);
 
-int Car::get_emission() {
+int Car::get_emissions() {
     return emissions;
 };
 

@@ -17,7 +17,7 @@ class Car {
     int get_price();
 
     // void set_emission(int prc);
-    int get_emission();
+    int get_emissions();
 
     virtual void drive(int kms);
 };
