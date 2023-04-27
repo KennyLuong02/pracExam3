@@ -30,5 +30,5 @@ int Car::get_emissions() {
 };
 
 void Car::drive(int kms) {
-    emissions = kms * 10;
+    emissions = kms * 20;
 };
